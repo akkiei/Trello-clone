@@ -10,6 +10,7 @@ const App = () => {
   async function InitDB() {
     await Db.InitDB(dbName, 1);
   }
+  localStorage.setItem("dbVer", 1);
   InitDB();
   return (
     <div className="app">

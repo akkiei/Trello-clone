@@ -14,6 +14,7 @@ const idb = {
       if (localStorage.getItem("dbVer") != null) {
         version = localStorage.getItem("dbVer");
       }
+      if (version === undefined) version = 10;
       const request = dbObject.open(dbName, parseInt(version, 10));
       request.onerror = (e) => {
         console.log(`Error opening database:${e}`);
