@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.580ba866.chunk.css",
+    "main.js": "/static/js/main.a2bddd77.chunk.js",
+    "main.js.map": "/static/js/main.a2bddd77.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5118b81f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5118b81f.js.map",
+    "static/js/2.9fe60922.chunk.js": "/static/js/2.9fe60922.chunk.js",
+    "static/js/2.9fe60922.chunk.js.map": "/static/js/2.9fe60922.chunk.js.map",
+    "static/js/3.3a32b146.chunk.js": "/static/js/3.3a32b146.chunk.js",
+    "static/js/3.3a32b146.chunk.js.map": "/static/js/3.3a32b146.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.580ba866.chunk.css.map": "/static/css/main.580ba866.chunk.css.map",
+    "static/js/2.9fe60922.chunk.js.LICENSE.txt": "/static/js/2.9fe60922.chunk.js.LICENSE.txt",
+    "static/media/cancel.08079bda.svg": "/static/media/cancel.08079bda.svg",
+    "static/media/plus.d5048b9a.svg": "/static/media/plus.d5048b9a.svg",
+    "static/media/reminders.e81f9a98.svg": "/static/media/reminders.e81f9a98.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5118b81f.js",
+    "static/js/2.9fe60922.chunk.js",
+    "static/css/main.580ba866.chunk.css",
+    "static/js/main.a2bddd77.chunk.js"
+  ]
+}
