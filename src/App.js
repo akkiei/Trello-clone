@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Components/Header";
+import GridColumn from "./Components/GridColumn";
+import React from "react";
+import AddNewList from "./Components/AddListIcon";
+import Db from "./Components/LocalDb";
 
-function App() {
+const App = () => {
+  const dbName = "trello";
+  async function InitDB() {
+    await Db.InitDB(dbName, 1);
+  }
+  InitDB();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <GridColumn />
     </div>
   );
-}
+};
 
 export default App;
